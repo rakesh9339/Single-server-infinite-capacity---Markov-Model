@@ -1,15 +1,11 @@
 # Single server with infinite capacity (M/M/1):(oo/FIFO)
-
 ## Aim :
-
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 12 seconds, serivice time of lathe machine follows exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
 ## Software required :
-
 Visual components and Python
 
 ## Theory:
-
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
 ![image](1.png)
@@ -18,21 +14,15 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 ## Procedure :
 
-![image](2.png)
+![imAGE](2.png)
 
 ## Experiment:
+![Exp 4 1](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/2960ee3e-7325-4e09-85e1-ae816ceaaab3)
 
-![237722115-cc250870-d1e7-4112-8ccc-5cae2a4301f0](https://github.com/Abrinnisha6/Single-server-infinite-capacity---Markov-Model/assets/118889454/74df9460-9efe-4531-b3cc-c697d34a66c2)
+![Exp 4 2](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/f5b111fa-a1b3-47ce-b862-a071560beec0)
 
-![A](https://github.com/Abrinnisha6/Single-server-infinite-capacity---Markov-Model/assets/118889454/c1034570-f71c-4586-9acf-5031b3ce7ac3)
-
- 
-## Program :
-```
-DEVELOPED BY : RAKESH J S
-### REG NO : 212222230127
-```
-```
+## Program
+```python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -60,9 +50,8 @@ print("---------------------------------------------------------------")
 ```
 
 ## Output :
+![out](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/56a83ac2-cbd6-41e5-a0ab-788d37c1160d)
 
-![Screenshot 2023-05-18 105817](https://github.com/Abrinnisha6/Single-server-infinite-capacity---Markov-Model/assets/118889454/0352e8f8-1332-4bbd-9a78-54dee8c92f89)
 
 ## Result :
-
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
